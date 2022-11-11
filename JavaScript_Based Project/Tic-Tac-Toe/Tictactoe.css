@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;500&family=Rubik+Bubbles&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Rubik Bubbles', cursive;
+}
+
+.brdr {
+    border: 5px solid black;
+    box-shadow: 2px 2px 5px black;
+}
+
+.bdr {
+    border: 2px solid white;
+}
+
+.totalArea {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+
+.container {
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+
+}
+
+.gameContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.boxContainer {
+
+    display: grid;
+    grid-template-columns: repeat(3, 10vw);
+    grid-template-rows: repeat(3, 10vw);
+}
+
+.infoContainer {
+    padding: 5px 50px;
+
+}
+
+.infoContainer>h1 {
+    margin-top: 2px;
+}
+
+.box {
+    border: 3px solid black;
+    font-size: 7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+
+}
+
+.box:hover {
+    background-color: rgb(236, 132, 236);
+}
+
+.bl-0 {
+    border-left: 0;
+}
+
+.br-0 {
+    border-right: 0;
+}
+
+.bt-0 {
+    border-top: 0;
+}
+
+.bb-0 {
+    border-bottom: 0;
+}
+
+.db {
+    border-right: 3px solid black;
+}
+
+#reset {
+    margin-left: 20px;
+    font-weight: bold;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 2px bl;
+    border-radius: 15px;
+    box-shadow: 2px 2px black;
+}
+
+#reset:hover {
+    background-color: rgb(165, 165, 245);
+}
+
+.announcementBox {
+
+
+    margin-top: 10px;
+}
+
+
+.announcementBox div.img {
+
+    display: inline-block;
+    background: url('congo.gif') no-repeat 0 0;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    visibility: hidden;
+    position: relative;
+    margin: -13px 0px;
+    border: 3px solid black;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 5px;
+}
+
+}
+
+.announcementBox h1 {
+
+    width: 60%;
+    display: block;
+   
+    margin-left: 50px;
+
+}
+
+#announcementArea {
+    position: relative;
+}
