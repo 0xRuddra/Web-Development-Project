@@ -31,6 +31,7 @@ body{
     justify-content: center;
    background-color: #f3f3f3;
    margin-top:6px;
+   z-index: 800;
 }
 
 
@@ -58,6 +59,9 @@ body{
     justify-content: center;
     margin-left: -131px;
     margin-top: 176px;
+   
+
+   
     
 }
 .startmenu img{
