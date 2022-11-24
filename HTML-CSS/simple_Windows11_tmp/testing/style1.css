@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.Border{
+    border:2px solid black;
+}
+body{
+    display: flex;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+#container{
+    width: 80%;
+    height: 94%;
+    box-shadow: 3px 5px 5px 5px black;
+    
+}
+
+.video{
+    height: 92%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.taskbar{
+    display: flex;
+    justify-content: center;
+   background-color: #f3f3f3;
+   margin-top:6px;
+}
+
+
+    
+
+
+
+ .sidebar {
+    position:absolute;
+    width:100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: -242px;
+    margin-top: -45px;
+    height: 38px;
+    margin-left:-307px;
+} 
+
+.startmenu{
+    position: absolute;
+    top: 0;
+    /* height: 50px; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: -131px;
+    margin-top: 176px;
+    
+}
+.startmenu img{
+    height: 450px;
+    border-radius: 10px;
+}
+

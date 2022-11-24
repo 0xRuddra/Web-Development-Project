@@ -1,0 +1,71 @@
+.navbar{
+    margin-bottom: 50px;
+}
+
+.banner-bg{
+    background-color: #fceae8;
+}
+
+.price-color{
+    color:#FF136F;
+}
+.price-color + button{
+   margin-top:20px;
+}
+
+.Border{
+    border:2px solid black;
+}
+
+.prodcutCategory h1{
+    color:white;
+}
+
+.cat1,.cat2,.cat3{
+   padding-left:25px;
+   margin-top: 60px;
+   border-radius: 20px;
+   /* box-shadow: 5px 3px 5px 5px black; */
+}
+
+.cat1{
+    background-color: purple;
+}
+.cat2{
+    background-color: yellowgreen;
+}
+.cat3{
+    background-color: blue;
+}
+#shoes{
+    margin-top:50px;
+}
+.bx-shadow{
+    border:none;
+    box-shadow: 5px 5px 10px lightgray;
+}
+#backpack{
+    margin-top:50px;
+    
+}
+
+#subscribe{
+    height: 350px;
+    margin-top: 50px;
+    background-color: #fceae8;
+}
+
+#subscribe input[type="email"]{
+    display: block;
+    width: 300px;
+    margin-bottom: 10px;
+}
+footer{
+   margin-top:50px;
+   text-align: center;
+    
+}
+footer small{
+
+ 
+}
