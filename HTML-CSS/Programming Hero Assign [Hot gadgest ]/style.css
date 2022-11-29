@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.Border{
+    border:2px solid black;
+}
+.navMenu{
+
+    display: flex;
+    justify-content: space-between;
+    margin-top:50px;
+
+}
+
+.navUL{
+    
+display: flex;
+width: 600px;
+justify-content: space-around;
+align-items: center;
+
+
+
+}
+
+.navUL li{
+    list-style-type: none;
+   
+    
+}
+
+.navUL li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+}
+
+.macBook input[type="button"]{
+    
+    width:100px;
+}
+
+.macBook{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+ 
+}
+.macBook>h1{
+    font-weight: bold;
+   
+}
+
+.macBookImg{
+    display: flex;
+
+}
+
+.smartPhoneZone{
+    margin-top: 70px;
+}
+
+.smartPhoneZone>img{
+    
+    height:150px;
+    width: 150px;
+    position: absolute;
+    margin-top:-174px;
+    margin-left: -135px;
+}
+
+.phoneheading h2{
+    font-weight: bold;
+}
+.phoneheading h2:last-child{
+    color: #ff9d00;
+    
+
+}
+
+.cards{
+    clear: both;
+    
+}
+.cards h5{
+    font-weight: bold;
+}
+
+.pcards-img{
+    
+    height:331px;
+    width: 280px;
+    margin:0 auto;
+}
+
+.lcards-img{
+   
+    height:331px;
+    width: 355px;
+    margin:0 auto;
+}
+
+.cards input[type="button"]
+{
+    width: 100px;
+}
+.cartZone{
+    margin-top:100px;
+   
+}
+
+#crtZoneTitle{
+    width: 200px;
+    font-weight: bold;
+    
+}
+
+#crtZoneTitle::after{
+    content: '';
+    height: 3px;
+    width: 150px;
+    display: block;
+    background-color: #ff9d00;
+    margin: 10px auto;
+    margin-bottom: 100px;
+}
+
+.firstShapeCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondShapeCenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.shape{
+    width: 246px;
+    height: 266px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+    box-shadow: 1px 1px 10px 3px black;
+    border-radius: 10px;
+    flex-direction: column;
+    
+}
+
+
+
+
+#shape1{
+    height: 126px;
+    width: 125px;
+  
+    background: url("Resources/Categories/bag.png") no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+#shape2{
+    height: 126px;
+    width: 125px;
+    
+    background: url("Resources/Categories/perfume.png") no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+   
+}
+
+#shape3{
+    height: 126px;
+    width: 125px;
+    
+    background: url("Resources/Categories/shoe.png") no-repeat;
+    background-size: cover;
+}
+
+#lastPortion{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  
+}
+#lastPortion img{
+    height: 387px;
+    width: 584px;
+
+}
