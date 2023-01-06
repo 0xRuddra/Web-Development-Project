@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animated text showdown</title>
+    <style>
+        .container {
+            width: 50%;
+            height: 500px;
+            border: 2px solid black;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            background-color: black;
+            color: yellow;
+           font-size: 18px;
+           
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container" id="display">
+        
+    </div>
+
+    <script>
+        const display=document.getElementById("display");
+        let txt = "just ask yourself . what you want to be. how you want to be. it's a long way i know. it's tough . but trust me the destionation is way more beautyful";
+        let ary=txt.split("");
+       function animation()
+       {
+        if(ary.length>0)
+        {
+            display.innerHTML+=ary.shift();
+           
+        }else{
+            return ;
+        }
+       
+        setTimeout(animation,50);
+       }
+       animation();
+
+       
+
+      // setInterval(animation,500);
+
+    </script>
+
+</body>
+
+</html>

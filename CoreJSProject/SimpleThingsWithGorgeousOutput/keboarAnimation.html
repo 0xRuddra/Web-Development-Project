@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard Animation</title>
+</head>
+<body>
+
+
+   <script>
+
+    document.onkeydown=flyingKeys;
+    let colors=['yellow','red','green','orange','black','purple','blue'];
+    
+    function flyingKeys(event)
+    {
+        let keyCode=event.keyCode;
+        let keys=String.fromCharCode(keyCode);
+        document.body.style.backgroundColor="black";
+      
+        let division=document.createElement('div');
+        document.body.appendChild(division);
+
+        division.style.position='absolute';
+        division.style.top=Math.floor(Math.random() * window.innerHeight)+'px';
+        division.style.left=Math.floor(Math.random()*window.innerWidth)+'px';
+        division.innerText=keys; 
+        //division.textContent=keys;
+
+        division.style.color=colors[Math.floor(Math.random()*colors.length)]
+    
+
+        division.style.transition="all 0.5s linear 0s";
+        division.style.top=division.offsetTop-30+'px';
+        division.style.left=division.offsetLeft-30+'px';
+        division.style.fontSize='100px';
+        division.style.opacity=0;
+        
+        //  if want to audio to the key press
+        //  let keysound=new Audio();
+        //  keysound.src="";
+        //  keysound.play();
+
+
+
+    }
+
+
+
+   </script> 
+    
+</body>
+</html>

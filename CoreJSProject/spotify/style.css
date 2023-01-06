@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Secular One', sans-serif;
+    background-color: beige;
+}
+
+.b{
+    border:2px solid white;
+}
+
+nav{
+
+}
+nav ul{
+    display: flex;
+    height: 60px;
+    background-color: black;
+    color:white;
+    align-items: center;
+
+}
+nav ul li{
+    list-style-type: none;
+    padding:0px 12px;
+
+}
+nav ul li.brandlogo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+nav ul li.brandlogo>img{
+    width: 44px;
+}
+
+.container{
+    min-height: 72vh;
+    background-color: black;
+    width: 65%;
+    color:white;
+    border-radius: 15px;
+    margin: 15px auto;
+    display: flex;
+    background: url('bg.jpg') no-repeat;
+    background-size: cover;
+    padding:15px;
+
+}
+
+.songItem{
+    height: 40px;
+    width: 92%;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    margin:12px 0;
+    border-radius: 10px;
+
+}
+
+.songItem>img{
+    width: 35px;
+    border-radius: 35px;
+    margin:0 20px;
+   
+
+}
+.songPlay{
+    margin:0 20px;
+    display: flex;
+    align-items: center;
+}
+
+.songPlayImg{
+    width:35px;
+    border-radius: 35px;
+    margin:0px 5px;
+    
+}
+.songPlayImg:hover{
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 0px 0px 3px 3px black;
+}
+
+.bottom{
+    position:sticky;
+    height:100px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#progressBar{
+    width: 60vw;
+}
+
+.icons img{
+    width: 40px;
+    background-color: white;
+    margin:5px 5px;
+    border-radius: 8px;
+}
+
+.songGif{
+    position: absolute;
+    left:302px;
+    margin-top:5px;
+    color:white;
+}
+
+.songGif>span{
+    margin-left:5px;
+}
+.songGif img{
+    width:90px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+
+}
+
+.songItemgif{
+    position: absolute;
+    left: 555px;
+    opacity: 0;
+
+}
